@@ -1,0 +1,16 @@
+{
+    "parserOptions":{
+        "ecmaVersion":2018
+    },
+    "extends":["eslint:recomended", "prettier"],
+    "env":{
+        "es6":true,
+        "node":true,
+        //jest es un fame para testing
+        "jest":true
+    },
+    "rules":{
+        "no-console": "warn"
+    }
+    
+}
